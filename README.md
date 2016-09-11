@@ -1,6 +1,6 @@
 # EUCookiesNotice
 
-Simple javascript library for display EU cookies law notice (requires: jQuery, js-cookie).
+Simple javascript library for display EU cookies law notice (requires: Bootstrap, jQuery, js-cookie).
 
 ![screenshot](http://i.imgur.com/LPUwAzZ.png)
 
