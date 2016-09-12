@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../eu-cookies-notice.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/js-cookie/src/js.cookie.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../eu-cookies-notice.js"></script>
+    <script>
+//      window.initMochaPhantomJS && window.initMochaPhantomJS()
+      mocha.setup('bdd')
+
+//      $(document).ready(function() {
+        euCookiesNotice.init();
+  //    });
+    </script>
+    <script src="spec.js"></script>
+
+    <!-- load code you want to test here -->
+
+    <!-- load your test files here -->
+
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
