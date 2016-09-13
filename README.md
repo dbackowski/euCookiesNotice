@@ -1,4 +1,4 @@
-# EUCookiesNotice
+# EUCookiesNotice [![Build Status](https://travis-ci.org/dbackowski/euCookiesNotice.svg?branch=master)](https://travis-ci.org/dbackowski/euCookiesNotice)
 
 Simple javascript library for display EU cookies law notice (requires: Bootstrap, jQuery, js-cookie).
 
